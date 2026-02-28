@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm";
+
 const features = [
   {
     title: "物件管理",
@@ -47,11 +49,11 @@ export default function Home() {
             <a href="#pricing" className="hover:text-blue-200 transition-colors">
               料金
             </a>
-            <a href="#contact" className="hover:text-blue-200 transition-colors">
-              お問い合わせ
-            </a>
             <a href="/column" className="hover:text-blue-200 transition-colors">
               コラム
+            </a>
+            <a href="#contact" className="hover:text-blue-200 transition-colors">
+              お問い合わせ
             </a>
             <a
               href="https://roomly.jp"
@@ -78,11 +80,11 @@ export default function Home() {
           <a href="#pricing" className="hover:text-blue-200">
             料金
           </a>
-          <a href="#contact" className="hover:text-blue-200">
-            お問い合わせ
-          </a>
           <a href="/column" className="hover:text-blue-200">
             コラム
+          </a>
+          <a href="#contact" className="hover:text-blue-200">
+            お問い合わせ
           </a>
         </nav>
       </header>
@@ -216,21 +218,16 @@ export default function Home() {
       </section>
 
       {/* お問い合わせ */}
-      <section id="contact" className="px-4 py-20 sm:px-6 sm:py-28">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-2xl font-bold text-primary sm:text-3xl">
+      <section id="contact" className="bg-gray-50 px-4 py-20 sm:px-6 sm:py-28">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-center text-2xl font-bold text-primary sm:text-3xl">
             お気軽にご相談ください
           </h2>
-          <p className="mt-4 text-gray-600">
-            導入のご検討やご不明点など、まずはお気軽にお問い合わせください。
+          <p className="mt-4 text-center text-gray-600">
+            導入のご検討・ご不明点・協業のご相談など、お気軽にお問い合わせください。
           </p>
           <div className="mt-10">
-            <a
-              href="mailto:contact@roomly.jp"
-              className="inline-block rounded-lg bg-accent px-8 py-3.5 text-base font-bold text-white shadow transition-colors hover:bg-accent/90 sm:text-lg"
-            >
-              contact@roomly.jp にメールする
-            </a>
+            <ContactForm />
           </div>
         </div>
       </section>
