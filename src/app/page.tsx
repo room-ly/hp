@@ -205,7 +205,7 @@ export default function Home() {
                 </li>
               </ul>
               <a
-                href="mailto:info@roomly.jp?subject=スタンダードプランのお問い合わせ"
+                href="mailto:contact@roomly.jp?subject=スタンダードプランのお問い合わせ"
                 className="mt-8 block rounded-lg bg-accent py-3 text-center text-sm font-bold text-white transition-colors hover:bg-accent/90"
               >
                 お問い合わせ
@@ -226,10 +226,10 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <a
-              href="mailto:info@roomly.jp"
+              href="mailto:contact@roomly.jp"
               className="inline-block rounded-lg bg-accent px-8 py-3.5 text-base font-bold text-white shadow transition-colors hover:bg-accent/90 sm:text-lg"
             >
-              info@roomly.jp にメールする
+              contact@roomly.jp にメールする
             </a>
           </div>
         </div>
