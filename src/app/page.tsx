@@ -50,6 +50,9 @@ export default function Home() {
             <a href="#contact" className="hover:text-blue-200 transition-colors">
               お問い合わせ
             </a>
+            <a href="/blog" className="hover:text-blue-200 transition-colors">
+              コラム
+            </a>
             <a
               href="https://roomly.jp"
               className="rounded-md bg-white px-4 py-2 text-sm font-semibold text-primary transition-colors hover:bg-blue-50"
@@ -77,6 +80,9 @@ export default function Home() {
           </a>
           <a href="#contact" className="hover:text-blue-200">
             お問い合わせ
+          </a>
+          <a href="/blog" className="hover:text-blue-200">
+            コラム
           </a>
         </nav>
       </header>
