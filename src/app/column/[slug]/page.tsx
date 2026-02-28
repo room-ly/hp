@@ -24,7 +24,7 @@ export async function generateMetadata({
       description: post.description,
       type: "article",
       publishedTime: post.date,
-      url: `https://hp.roomly.jp/blog/${post.slug}`,
+      url: `https://hp.roomly.jp/column/${post.slug}`,
       siteName: "Roomly",
       locale: "ja_JP",
     },
@@ -78,7 +78,7 @@ export default async function BlogPostPage({
               料金
             </Link>
             <Link
-              href="/blog"
+              href="/column"
               className="transition-colors hover:text-blue-200"
             >
               コラム
@@ -110,7 +110,7 @@ export default async function BlogPostPage({
               トップ
             </Link>
             <span className="mx-2">/</span>
-            <Link href="/blog" className="transition-colors hover:text-accent">
+            <Link href="/column" className="transition-colors hover:text-accent">
               コラム
             </Link>
             <span className="mx-2">/</span>
@@ -166,7 +166,7 @@ export default async function BlogPostPage({
                 {relatedPosts.map((p) => (
                   <Link
                     key={p.slug}
-                    href={`/blog/${p.slug}`}
+                    href={`/column/${p.slug}`}
                     className="block rounded-lg border border-gray-200 p-4 transition-shadow hover:shadow-md"
                   >
                     <p className="text-xs text-gray-500">

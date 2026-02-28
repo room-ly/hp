@@ -33,7 +33,7 @@ export default function BlogIndex() {
               料金
             </Link>
             <Link
-              href="/blog"
+              href="/column"
               className="transition-colors hover:text-blue-200"
             >
               コラム
@@ -89,7 +89,7 @@ export default function BlogIndex() {
                 </div>
                 <h2 className="mt-3 text-lg font-bold text-primary sm:text-xl">
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={`/column/${post.slug}`}
                     className="transition-colors hover:text-accent"
                   >
                     {post.title}
@@ -99,7 +99,7 @@ export default function BlogIndex() {
                   {post.description}
                 </p>
                 <Link
-                  href={`/blog/${post.slug}`}
+                  href={`/column/${post.slug}`}
                   className="mt-4 inline-block text-sm font-medium text-accent transition-colors hover:text-primary"
                 >
                   続きを読む →

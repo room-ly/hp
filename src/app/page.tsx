@@ -50,7 +50,7 @@ export default function Home() {
             <a href="#contact" className="hover:text-blue-200 transition-colors">
               お問い合わせ
             </a>
-            <a href="/blog" className="hover:text-blue-200 transition-colors">
+            <a href="/column" className="hover:text-blue-200 transition-colors">
               コラム
             </a>
             <a
@@ -81,7 +81,7 @@ export default function Home() {
           <a href="#contact" className="hover:text-blue-200">
             お問い合わせ
           </a>
-          <a href="/blog" className="hover:text-blue-200">
+          <a href="/column" className="hover:text-blue-200">
             コラム
           </a>
         </nav>
