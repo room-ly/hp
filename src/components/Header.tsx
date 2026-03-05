@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { label: "機能", href: "/#features" },
   { label: "料金", href: "/#pricing" },
   { label: "コラム", href: "/column" },
-  { label: "お問い合わせ", href: "/#contact" },
+  { label: "お問い合わせ", href: "/contact" },
 ];
 
 export function Header() {

@@ -9,7 +9,7 @@ import {
   UserPlus,
   Rocket,
 } from "lucide-react";
-import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 const features = [
   {
@@ -252,18 +252,21 @@ export default function Home() {
         </div>
       </section>
 
-      {/* お問い合わせ */}
-      <section id="contact" className="px-4 py-16 sm:py-24">
-        <div className="mx-auto max-w-2xl">
-          <h2 className="text-center text-xl font-semibold text-rm-primary sm:text-2xl">
+      {/* お問い合わせ導線 */}
+      <section className="px-4 py-16 sm:py-24">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-xl font-semibold text-rm-primary sm:text-2xl">
             お気軽にご相談ください
           </h2>
-          <p className="mt-4 text-center text-[14px] text-rm-text-secondary">
+          <p className="mt-4 text-[14px] text-rm-text-secondary">
             導入のご検討・ご不明点・協業のご相談など、お気軽にお問い合わせください。
           </p>
-          <div className="mt-10">
-            <ContactForm />
-          </div>
+          <Link
+            href="/contact"
+            className="mt-8 inline-block rounded bg-rm-accent px-10 py-3.5 text-[15px] font-medium text-white transition-colors hover:bg-rm-accent-light"
+          >
+            お問い合わせはこちら
+          </Link>
         </div>
       </section>
     </>
