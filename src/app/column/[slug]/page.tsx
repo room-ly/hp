@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPostBySlug, getAllPosts, posts } from "@/lib/column";
+import { getPostBySlug, getAllPosts, getPublishedSlugs } from "@/lib/column";
 import Comments from "@/components/Comments";
 
 export function generateStaticParams() {
-  return posts.map((post) => ({ slug: post.slug }));
+  return getPublishedSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
