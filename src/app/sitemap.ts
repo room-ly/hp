@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts } from "@/lib/column";
+import { getAllArticles } from "@/lib/media";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://hp.roomly.jp";
-  const posts = getAllPosts();
+  const posts = getAllArticles();
 
   const columnPages = posts.map((post) => ({
     url: `${baseUrl}/column/${post.slug}`,

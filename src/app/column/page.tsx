@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllPosts } from "@/lib/column";
+import { getAllArticles } from "@/lib/media";
 
 export const metadata: Metadata = {
   title: "コラム",
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndex() {
-  const posts = getAllPosts();
+  const posts = getAllArticles();
 
   return (
     <>
