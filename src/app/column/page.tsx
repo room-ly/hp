@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "コラム",
   description:
     "賃貸管理の業務改善に役立つコラムをお届けします。物件管理・家賃管理・オーナー対応・修繕管理のノウハウを紹介。",
+  alternates: {
+    canonical: "/column",
+  },
 };
 
 export default function BlogIndex() {

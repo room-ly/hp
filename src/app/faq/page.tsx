@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "よくある質問（FAQ）",
   description:
     "Roomlyに関するよくある質問と回答。料金・機能・セキュリティ・導入方法などについて回答しています。",
+  alternates: {
+    canonical: "/faq",
+  },
 };
 
 const faqCategories = [

@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "お問い合わせ",
   description:
     "Roomlyの導入相談・ご不明点・協業のご相談など、お気軽にお問い合わせください。",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

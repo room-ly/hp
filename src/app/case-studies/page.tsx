@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "導入事例",
   description:
     "Roomlyを導入いただいた賃貸管理会社の事例をご紹介。導入効果・業務改善の実績をご覧ください。",
+  alternates: {
+    canonical: "/case-studies",
+  },
 };
 
 // 事例テンプレート（今後実際の事例データで置き換える）

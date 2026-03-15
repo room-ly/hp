@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "料金プラン",
   description:
     "Roomlyの料金プラン。10区画まで完全無料。全機能が使えるシンプルな区画数ベースの料金体系。初期費用・クレジットカード不要。",
+  alternates: {
+    canonical: "/pricing",
+  },
 };
 
 const plans = [
