@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/contact",
   },
+  openGraph: {
+    title: "お問い合わせ | Roomly",
+    description:
+      "Roomlyの導入相談・ご不明点・協業のご相談など、お気軽にお問い合わせください。",
+    type: "website",
+    url: "https://hp.roomly.jp/contact",
+    siteName: "Roomly",
+    locale: "ja_JP",
+  },
 };
 
 export default function ContactPage() {
